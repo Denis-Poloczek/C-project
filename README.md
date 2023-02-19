@@ -12,9 +12,3 @@ The Jaro Winkler distance algorithm can be calculated using the following formul
 
 Jaro Winkler distance = Jaro distance + (prefix length * scaling factor * (1 - Jaro distance))
 
-where:
-
-Jaro distance is the result of the Jaro distance algorithm
-prefix length is the length of the common prefix of the two strings, up to a maximum of four characters
-scaling factor is a constant between 0 and 0.25 that is used to give more weight to the similarity of the initial characters of the two strings
-The result of the Jaro Winkler distance algorithm is a value between 0 and 1, where a value of 1 indicates that the two strings are identical and a value of 0 indicates that the two strings have no similarity. The higher the value, the more similar the two strings are considered to be.
