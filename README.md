@@ -10,6 +10,7 @@ The Jaro Winkler distance algorithm can be calculated using the following formul
 
 Jaro Winkler distance = Jaro distance + (prefix length * scaling factor * (1 - Jaro distance))
 
+
 $$JW = J + (l \times p \times (1 - J))$$
 
 where:
