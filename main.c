@@ -2,7 +2,7 @@
 //  main.c
 //  Projekt 1 - C
 //
-//  Created by Denis Poloczek on 29/05/2021.
+//  Created by Denis Poloczek on 29/05/2020.
 //
 
 
